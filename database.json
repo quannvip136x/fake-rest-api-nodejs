@@ -15,7 +15,7 @@
       "modifiedAt": 1609483221000
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Hoàng Thiên Quân",
       "username": "admin",
       "email": "hoangquanx98x@gmail.com",
@@ -29,7 +29,7 @@
       "modifiedAt": 1609483221000
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Hoàng Thiên Quân",
       "username": "admin",
       "email": "hoangquanx98x@gmail.com",
@@ -42,23 +42,20 @@
       "createdAt": 1609483221000,
       "modifiedAt": 1609483221000
     },
-    {
+     {
+      "id": 4,
       "name": "Hoàng Thiên Quân",
-      "birthday": "1985-07-04",
+      "username": "admin",
       "email": "hoangquanx98x@gmail.com",
-      "phone": "0349320604",
-      "createdAt": 1621791930200,
-      "modifiedAt": 1621791930200,
-      "id": 3
-    },
-    {
-      "name": "Hoàng Thiên Quân",
-      "birthday": "19988-08-04",
-      "email": "hoangquanx98x@gmail.com",
+      "password": "admin",
+      "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
+      "gender": "Genderfluid",
       "phone": "0976979874",
-      "createdAt": 1621793359503,
-      "modifiedAt": 1621793359503,
-      "id": 4
+      "birthday": "1998-08-04",
+      "status": true,
+      "createdAt": 1609483221000,
+      "modifiedAt": 1609483221000
     }
+   
   ]
 }
