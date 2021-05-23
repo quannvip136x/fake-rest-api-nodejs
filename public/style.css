@@ -30,7 +30,7 @@ tr:nth-child(even) {
     margin: auto;
 }
 .add-student{
-    background-color: rgb(8, 231, 8);
+    background-color: rgb(58, 194, 99);
     box-shadow: 1px 1px 1px 1px rgb(211, 203, 203);
     border-radius: 5px;
     max-width:100px;
@@ -47,10 +47,12 @@ tr:nth-child(even) {
     background-color: rgb(65, 146, 65);
 }
 .fix-student {
-    padding: 5px;
+   padding: 20px    ;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* margin-top: 20px;
+    padding-bottom: 20px; */
 }
 .delete{
     cursor: pointer;
@@ -133,13 +135,13 @@ a{
 .save{
     padding: 10px;
     margin: 5px;
-    background: rgb(76, 214, 76);
+    background: rgb(64, 180, 89);
     border-radius: 5px;
     cursor: pointer;
     color: #fff;
 }
 .save:hover{
-    background: rgb(52, 163, 52);
+    background: rgb(46, 138, 46);
 }
 .form_item{
     text-align: center;
