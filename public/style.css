@@ -30,7 +30,7 @@ tr:nth-child(even) {
     margin: auto;
 }
 .add-student{
-    background-color: rgb(58, 194, 99);
+    background-color: rgb(86, 167, 110);
     box-shadow: 1px 1px 1px 1px rgb(211, 203, 203);
     border-radius: 5px;
     max-width:100px;
@@ -135,7 +135,7 @@ a{
 .save{
     padding: 10px;
     margin: 5px;
-    background: rgb(64, 180, 89);
+    background: rgb(80, 160, 77);
     border-radius: 5px;
     cursor: pointer;
     color: #fff;
