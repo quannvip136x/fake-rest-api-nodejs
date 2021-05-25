@@ -49,11 +49,11 @@
 
     $('.save').click(function () {
         let name = $('#name').val();
-        let ngaysinh = $('#birthday').val();
+        let birthday = $('#birthday').val();
         let email = $('#email').val();
         let phone = $('#phone').val();
         // let isValidate = true;
-        if (name === "" || name.length <= 2 || name.length > 50 || ngaysinh === "" || !isEmailAddress(email) ||email === "" || phone === "") {
+        if (name === "" || name.length <= 2 || name.length > 50 || birthday === "" || !isEmailAddress(email) ||email === "" || phone === "") {
             if (_.isEmpty(name)) {
                 name = ""
                 $('#name-error').text('Vui lòng nhập họ và tên')
@@ -65,7 +65,7 @@
                 $('#name-error').text("");
             }
             if (_.isEmpty(birthday)) {
-                ngaysinh = ''
+                birthday = ''
                 $('#birthday-error').text('Vui lòng nhập Ngày tháng năm sinh')
             }
             else{
