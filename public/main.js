@@ -123,6 +123,7 @@
                     document.getElementById('#table-users').innerHTML = result
                 }
             });
+            alert("Bạn đã tạo thành công");
             location.reload();
         }
         
