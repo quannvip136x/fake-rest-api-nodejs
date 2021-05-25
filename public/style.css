@@ -51,6 +51,9 @@ tr:nth-child(even) {
     flex-direction: row;
     justify-content: center;
 }
+.edit{
+    cursor: pointer;
+}
 
 .delete{
     cursor: pointer;
@@ -78,12 +81,13 @@ a{
 }
 
 /* Thêm học viên */
-.form-add{
-    display: none;
-}
 .form-edit{
     display: none;
 }
+.form-add{
+    display: none;
+}
+
 .show{
     display: block;
 }
