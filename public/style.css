@@ -47,13 +47,11 @@ tr:nth-child(even) {
     background-color: rgb(65, 146, 65);
 }
 .fix-student {
-   padding: 20px    ;
-    display: flex;
+    display: flex;  ;
     flex-direction: row;
     justify-content: center;
-    /* margin-top: 20px;
-    padding-bottom: 20px; */
 }
+
 .delete{
     cursor: pointer;
 }
@@ -63,7 +61,7 @@ tr:nth-child(even) {
 .border-a{
     margin-left: 5px;
     margin-right: 5px;
-    border: 1px solid rgb(124, 123, 123);
+    border-top: none;
 }
 a{
     text-decoration: none;
@@ -119,6 +117,7 @@ a{
 .button{
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 .back:hover{
     background-color: rgb(53, 45, 45);
@@ -145,4 +144,8 @@ a{
 }
 .form_item{
     text-align: center;
+}
+.form_item span{
+    align-items: left;
+   padding-bottom: 50px;
 }
