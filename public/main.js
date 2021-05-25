@@ -155,6 +155,7 @@ function deletor(id) {
                     deletid.remove();
                 }
                 alert('xóa thành công')
+              location.reload();
         })
 
     })
