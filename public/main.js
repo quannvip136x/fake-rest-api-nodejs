@@ -9,6 +9,11 @@
         $('.form-edit').removeClass('show');
 
     });
+function editor() {
+    $('main').removeClass('show')
+    $('main').addClass('hide');
+    $('.form-edit').addClass('show');
+}
     let isEmailAddress = email => {
         return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
     }
