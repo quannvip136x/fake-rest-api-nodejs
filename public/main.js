@@ -23,7 +23,7 @@ function editor() {
 let isEmailAddress = email => {
     return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
 }
-let courseApi = 'https://shadowboiz.herokuapp.com/users';
+let courseApi = 'http://localhost:3000/users';
 function loadDocJQuery() {
     $.ajax(courseApi, {
         method: "GET"
@@ -146,18 +146,20 @@ function deletor(id) {
     $('.Apl').removeClass('hide');
     $('.yes').click(function () {
         return $.ajax({
-            url:"https://shadowboiz.herokuapp.com/users",
+            url: courseApi + "/" + id,
             method: "DELETE"
-        }).done(function(){
-            let deletid= document.querySelector('content-'+id)
-            if(deletid){
-                deletid.remove()
+            }).done(function(){
+                let deletid= document.querySelector('content-'+id)
+                console.log(deletid);    
+                if(deletid){
+                    deletid.remove();
+                }
                 alert('xóa thành công')
-            }
         })
-        
+
     })
-        $('.no').click(function () {
-            $('.Apl').removeClass('show');
-        })
-    }
+    $('.no').click(function () {
+        $('.Apl').removeClass('show');
+    })
+}
+
