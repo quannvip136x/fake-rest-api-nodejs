@@ -81,7 +81,9 @@ a{
 .form-add{
     display: none;
 }
-
+.form-edit{
+    display: none;
+}
 .show{
     display: block;
 }
