@@ -17,11 +17,13 @@
 <body>
     <main>
         <h1>Danh Sách Học Viên</h1>
+        
         <div class="box-item">
-            <div class="add-student">
 
+            <div class="add-student">
                 <p> <i class="fas fa-user-plus"></i>New</p>
             </div>
+
             <table class="table">
                 <thead>
                     <tr>
@@ -32,9 +34,7 @@
                         <th scope="col" class="event"></th>
                     </tr>
                 </thead>
-                <tbody id="table-users">
-
-                </tbody>
+                <tbody id="table-users"></tbody>
             </table>
         </div>
 
@@ -47,46 +47,41 @@
                     <div class="form__row">
                         <label class="form__label" for="name">Họ Tên <span>*</span></label>
                         <input class="form__input" type="text" id="name">
-
                     </div>
                     <span id="name-error"></span>
-
-
                 </div>
+
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">ngày sinh <span>*</span></label>
                         <input class="form__input" type="date" id="birthday">
-
                     </div>
                     <span id="birthday-error"></span>
-
                 </div>
+
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">Email <span>*</span></label>
                         <input class="form__input" type="email" id="email">
-
                     </div>
                     <span id="email-error"></span>
-
                 </div>
+
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">Phone <span>*</span></label>
                         <input class="form__input" type="number" id="phone">
-
                     </div>
                     <span id="phone-error"><br></span>
                 </div>
             </form>
 
             <div class="button">
-
                 <div class="back">
                     <i class="far fa-angle-left"></i>
                     Quay lại
                 </div>
+
                 <div class="save">
                     <i class="fas fa-save"></i>
                     Lưu
@@ -97,7 +92,7 @@
 
     </div>
 
-    <div class="Apl" >
+    <div class="Apl">
         <span>Bạn muốn xóa sinh viên này?</span>
         <div class="thongbaoDel">
             <p class="yes" onclick="function deleteEdit(x)">Xác Nhận</p>
@@ -116,14 +111,12 @@
 
                     </div>
                     <span id="name-error-edit"></span>
-
-
                 </div>
+
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">ngày sinh <span>*</span></label>
                         <input class="form__input" type="date" id="birthday-edit">
-
                     </div>
                     <span id="birthday-error-edit"></span>
 
@@ -132,7 +125,6 @@
                     <div class="form__row">
                         <label class="form__label" for="name">Email <span>*</span></label>
                         <input class="form__input" type="email" id="email-edit">
-
                     </div>
                     <span id="email-error-edit"></span>
 
@@ -141,18 +133,17 @@
                     <div class="form__row">
                         <label class="form__label" for="name">Phone <span>*</span></label>
                         <input class="form__input" type="number" id="phone-edit">
-
                     </div>
                     <span id="phone-error-edit"><br></span>
                 </div>
             </form>
 
             <div class="button">
-
                 <div class="back-edit">
                     <i class="far fa-angle-left"></i>
                     Quay lại
                 </div>
+
                 <div class="save-edit" onclick="edittor()">
                     <i class="fas fa-save"></i>
                     Lưu
@@ -162,7 +153,7 @@
         </div>
 
     </div>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
     <script src="main.js"></script>
