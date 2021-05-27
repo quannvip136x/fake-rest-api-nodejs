@@ -100,7 +100,7 @@
     <div class="Apl" >
         <span>Bạn muốn xóa sinh viên này?</span>
         <div class="thongbaoDel">
-            <p class="yes">Xác Nhận</p>
+            <p class="yes" onclick="function deleteEdit(x)">Xác Nhận</p>
             <p class="no">Hủy Bỏ</p>
         </div>
     </div>
@@ -112,48 +112,48 @@
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">Họ Tên <span>*</span></label>
-                        <input class="form__input" type="text" id="name">
+                        <input class="form__input" type="text" id="name-edit">
 
                     </div>
-                    <span id="name-error"></span>
+                    <span id="name-error-edit"></span>
 
 
                 </div>
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">ngày sinh <span>*</span></label>
-                        <input class="form__input" type="date" id="birthday">
+                        <input class="form__input" type="date" id="birthday-edit">
 
                     </div>
-                    <span id="birthday-error"></span>
+                    <span id="birthday-error-edit"></span>
 
                 </div>
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">Email <span>*</span></label>
-                        <input class="form__input" type="email" id="email">
+                        <input class="form__input" type="email" id="email-edit">
 
                     </div>
-                    <span id="email-error"></span>
+                    <span id="email-error-edit"></span>
 
                 </div>
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="name">Phone <span>*</span></label>
-                        <input class="form__input" type="number" id="phone">
+                        <input class="form__input" type="number" id="phone-edit">
 
                     </div>
-                    <span id="phone-error"><br></span>
+                    <span id="phone-error-edit"><br></span>
                 </div>
             </form>
 
             <div class="button">
 
-                <div class="back">
+                <div class="back-edit">
                     <i class="far fa-angle-left"></i>
                     Quay lại
                 </div>
-                <div class="save">
+                <div class="save-edit" onclick="edittor()">
                     <i class="fas fa-save"></i>
                     Lưu
                 </div>
