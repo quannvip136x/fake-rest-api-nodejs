@@ -229,13 +229,12 @@ function deletor(id) {
             }
             alert('xóa thành công')
             location.reload();
-        }
-        
-        
+        })
+     
+
     })
-     $('.no').click(function () {
-        $('.Apl').removeClass('show');
-   
+    $('.no').click(function () {
+    $('.Apl').removeClass('show');
     })
 }
 
