@@ -5,16 +5,16 @@ $('.add-student').click(function () {
 });
 
 $('.back').click(function () {
-    $('.form-add').removeClass('show');
-    $('main').removeClass('hide');
-    $('main').addClass("show");
-    $('.form-edit').removeClass('show');
-    $('.Apl').addClass('hide');
+    location.reload();
+
+});
+$('.back-edit').click(function () {
+    location.reload();
 
 });
 
 function editor() {
-    $('main').removeClass('show')
+    $('main').removeClass('show');
     $('main').addClass('hide');
     $('.form-edit').addClass('show');
     $('.Apl').addClass('hide');
@@ -23,7 +23,7 @@ function editor() {
 let isEmailAddress = email => {
     return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
 }
-let courseApi = 'http://localhost:3000/users';
+let courseApi = 'https://shadowboiz.herokuapp.com/users';
 function loadDocJQuery() {
     $.ajax(courseApi, {
         method: "GET"
@@ -140,6 +140,79 @@ $('.save').click(function () {
 
 });
 
+function editor(id) {
+    $('main').addClass('hide');
+    $('.form-edit').addClass('show');
+    $.ajax(courseApi, {
+        method: "GET",
+    }).done(function (users) {
+        for (let i = 0; i < users.length; i++) {
+            let user = users[i]
+            if (user.id === id) {
+                $('#name-edit').val(user.name)
+                $('#birthday-edit').val(user.birthday)
+                $('#email-edit').val(user.email)
+                $('#phone-edit').val(user.phone)
+                $('.save-edit').click(function () {
+                    let name = $('#name-edit').val();
+                    let birthday = $('#birthday-edit').val();
+                    let email = $('#email-edit').val();
+                    let phone = $('#phone-edit').val();
+                    if (name === "" || name.length <= 2 || name.length > 50 || birthday === "" || !isEmailAddress(email) || email === "" || phone === "") {
+                        if (_.isEmpty(name)) {
+                            name = ""
+                            $('#name-error-edit').text('Vui lòng nhập họ và tên')
+                        } else if (name.trim().length <= 2 || name.trim().length > 50) {
+                            name = ""
+                            $('#name-error-edit').text('Họ và tên lớn hơn 2 và nhỏ hơn 50 kí tự')
+                        } else {
+                            $('#name-error-edit').text('')
+                        }
+                        if (_.isEmpty(birthday)) {
+                            birthday = ''
+                            $('#birthday-error-edit').text('Vui lòng nhập Ngày tháng năm sinh')
+                        }
+                        else {
+                            $('#birthday-error-edit').text('')
+                        }
+                        if (_.isEmpty(email)) {
+                            email = ''
+                            $('#email-error-edit').text('Vui lòng nhập Email')
+                        } else if (!isEmailAddress(email)) {
+                            email = ''
+                            $('#email-error-edit').text('Sai Định dạng')
+                        } else {
+                            $('#email-error-edit').text('')
+                        }
+                        if (_.isEmpty(phone)) {
+                            phone = ''
+                            $('#phone-error-edit').text('Vui lòng nhập Số điện thoại')
+                        } else {
+                            $('#phone-error-edit').text('')
+                        }
+
+                    } else {
+                        $.ajax({
+                            url: courseApi + '/' + id,
+                            method: 'PUT',
+                            data: {
+                                name: name,
+                                birthday: birthday,
+                                email: email,
+                                phone: phone
+                            }
+                        }).done(function (data) {
+                            console.log(data);
+                            location.reload();
+                        })
+                    }
+
+                });
+            }
+        }
+    });
+}
+
 function deletor(id) {
     console.log(id);
     $('.Apl').addClass('show');
@@ -148,14 +221,13 @@ function deletor(id) {
         return $.ajax({
             url: courseApi + "/" + id,
             method: "DELETE"
-            }).done(function(){
-                let deletid= document.querySelector('content-'+id)
-                console.log(deletid);    
-                if(deletid){
-                    deletid.remove();
-                }
-                alert('xóa thành công')
-              location.reload();
+        }).done(function () {
+            let deletid = document.querySelector('content-' + id)
+            console.log(deletid);
+            if (deletid) {
+                deletid.remove();
+            }
+            alert('xóa thành công')
         })
 
     })
