@@ -60,43 +60,43 @@
   ],
   "products": [
   {
-    id: 1,
+    "id": 1,
 
-    image:
+    "image":
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
-    name: "Siêu nhân đỏ",
-    price: 670000
+    "name": "Siêu nhân đỏ",
+    "price": 670000
   },
   {
-    id: 2,
+    "id": 2,
 
-    image:
+    "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
-    name: "Siêu nhân cuồng phong",
-    price: 5200000
+    "name": "Siêu nhân cuồng phong",
+    "price": 5200000
   },
   {
-    id: 3,
+    "id": 3,
 
-    image:
+    "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
-    name: "Siêu nhân vàng",
-    price: 1500000
+    "name": "Siêu nhân vàng",
+    "price": 1500000
   },
   {
-    id: 4,
+    "id": 4,
 
-    image:
+    "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
-    name: "Siêu nhân xanh",
-    price: 500000
+    "name": "Siêu nhân xanh",
+    "price": 500000
   },
   {
-    id: 5,
+    "id": 5,
 
-    image: "http://i.imgur.com/u2Ni9Wl.jpg",
-    name: "Siêu nhân đen",
-    price: 850000
+    "image": "http://i.imgur.com/u2Ni9Wl.jpg",
+    "name": "Siêu nhân đen",
+    "price": 850000
   }
   ]
 }
