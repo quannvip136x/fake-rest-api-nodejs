@@ -60,7 +60,7 @@
   ],
   "products": [
   {
-    "id": 1,
+    "id": "pro1",
 
     "image":
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
@@ -68,7 +68,7 @@
     "price": 670000
   },
   {
-    "id": 2,
+    "id": "pro2",
 
     "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
@@ -76,7 +76,7 @@
     "price": 5200000
   },
   {
-    "id": 3,
+    "id": "pro3",
 
     "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
@@ -84,7 +84,7 @@
     "price": 1500000
   },
   {
-    "id": 4,
+    "id": "pro4",
 
     "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
@@ -92,28 +92,28 @@
     "price": 500000
   },
   {
-    "id": 5,
+    "id": "pro5",
 
     "image": "http://i.imgur.com/u2Ni9Wl.jpg",
     "name": "Siêu nhân đen",
     "price": 850000
   },
      {
-    "id": 6,
+    "id": "pro6",
 
     "image": "https://product.hstatic.net/200000112489/product/db435fbeb3cf4e9117de_cb0e6c6531a0457386311ffd93650098_master.jpg",
     "name": "Mô hình Alberdo",
     "price": 1850000
   },
  {
-    "id": 7,
+    "id": "pro7",
 
     "image": "https://product.hstatic.net/200000112489/product/z1986154399555_e62a8bd534b71b1e5b73edd49f1947b7_cb29afa19465493b9f0302ef2fb97df9_master.jpg",
     "name": "Mô hình Pain",
     "price": 550000
   },
  {
-    "id": 8,
+    "id": "pro8",
 
     "image": "https://product.hstatic.net/200000112489/product/z2108742660059_7a49e74c57569f4cdb56d74ca8cccc04_d673c61d68f046b5a3deef717649e406_master.jpg",
     "name": "Mô Hình Grand Oder Lancer",
@@ -122,7 +122,7 @@
   ], 
   "productsNew": [
   {
-    "id": 1,
+    "id": "new1",
 
     "image":
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
@@ -130,7 +130,7 @@
     "price": 670000
   },
   {
-    "id": 2,
+    "id": "new2",
 
     "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
@@ -138,7 +138,7 @@
     "price": 5200000
   },
   {
-    "id": 3,
+    "id": "new3",
 
     "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
@@ -146,7 +146,7 @@
     "price": 1500000
   },
   {
-    "id": 4,
+    "id": "new4",
 
     "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
@@ -154,28 +154,28 @@
     "price": 500000
   },
   {
-    "id": 5,
+    "id": "new5",
 
     "image": "http://i.imgur.com/u2Ni9Wl.jpg",
     "name": "Siêu nhân đen",
     "price": 850000
   },
        {
-    "id": 6,
+    "id": "new6",
 
     "image": "https://product.hstatic.net/200000112489/product/db435fbeb3cf4e9117de_cb0e6c6531a0457386311ffd93650098_master.jpg",
     "name": "Mô hình Alberdo",
     "price": 1850000
   },
  {
-    "id": 7,
+    "id": "new7",
 
     "image": "https://product.hstatic.net/200000112489/product/z1986154399555_e62a8bd534b71b1e5b73edd49f1947b7_cb29afa19465493b9f0302ef2fb97df9_master.jpg",
     "name": "Mô hình Pain",
     "price": 550000
   },
  {
-    "id": 8,
+    "id": "new8",
 
     "image": "https://product.hstatic.net/200000112489/product/z2108742660059_7a49e74c57569f4cdb56d74ca8cccc04_d673c61d68f046b5a3deef717649e406_master.jpg",
     "name": "Mô Hình Grand Oder Lancer",
@@ -184,7 +184,7 @@
   ],
    "productsBestSell": [
   {
-    "id": 1,
+    "id": "be1",
 
     "image":
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
@@ -192,7 +192,7 @@
     "price": 670000
   },
   {
-    "id": 2,
+    "id": "be2",
 
     "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
@@ -200,7 +200,7 @@
     "price": 5200000
   },
   {
-    "id": 3,
+    "id": "be3",
 
     "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
@@ -208,7 +208,7 @@
     "price": 1500000
   },
   {
-    "id": 4,
+    "id": "be4",
 
     "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
@@ -216,7 +216,7 @@
     "price": 500000
   },
   {
-    "id": 5,
+    "id": "be5",
 
     "image": "http://i.imgur.com/u2Ni9Wl.jpg",
     "name": "Siêu nhân đen",
@@ -224,21 +224,21 @@
   }
      ,
        {
-    "id": 6,
+    "id": "be6",
 
     "image": "https://product.hstatic.net/200000112489/product/db435fbeb3cf4e9117de_cb0e6c6531a0457386311ffd93650098_master.jpg",
     "name": "Mô hình Alberdo",
     "price": 1850000
   },
  {
-    "id": 7,
+    "id": "be7",
 
     "image": "https://product.hstatic.net/200000112489/product/z1986154399555_e62a8bd534b71b1e5b73edd49f1947b7_cb29afa19465493b9f0302ef2fb97df9_master.jpg",
     "name": "Mô hình Pain",
     "price": 550000
   },
  {
-    "id": 8,
+    "id": "be8",
 
     "image": "https://product.hstatic.net/200000112489/product/z2108742660059_7a49e74c57569f4cdb56d74ca8cccc04_d673c61d68f046b5a3deef717649e406_master.jpg",
     "name": "Mô Hình Grand Oder Lancer",
