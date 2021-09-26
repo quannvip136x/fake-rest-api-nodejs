@@ -66,7 +66,8 @@
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
     "name": "Siêu nhân đỏ",
     "price": 670000,
-    "describe":"Tên nhân vật Naruto"
+    "series": "Siêu nhân" 
+    "height: "26 cm" 
   },
   {
     "id": "pro2",
@@ -74,7 +75,9 @@
     "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
     "name": "Siêu nhân cuồng phong",
-    "price": 5200000
+    "price": 5200000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "pro3",
@@ -82,7 +85,9 @@
     "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
     "name": "Siêu nhân vàng",
-    "price": 1500000
+    "price": 1500000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "pro4",
@@ -90,35 +95,45 @@
     "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
     "name": "Siêu nhân xanh",
-    "price": 500000
+    "price": 500000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "pro5",
 
     "image": "http://i.imgur.com/u2Ni9Wl.jpg",
     "name": "Siêu nhân đen",
-    "price": 850000
+    "price": 850000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
      {
     "id": "pro6",
 
     "image": "https://product.hstatic.net/200000112489/product/db435fbeb3cf4e9117de_cb0e6c6531a0457386311ffd93650098_master.jpg",
     "name": "Mô hình Alberdo",
-    "price": 1850000
+    "price": 1850000,
+         "series": "Siêu nhân" 
+    "height: "26 cm"
   },
  {
     "id": "pro7",
 
     "image": "https://product.hstatic.net/200000112489/product/z1986154399555_e62a8bd534b71b1e5b73edd49f1947b7_cb29afa19465493b9f0302ef2fb97df9_master.jpg",
     "name": "Mô hình Pain",
-    "price": 550000
+    "price": 550000,
+     "series": "Siêu nhân" 
+    "height: "26 cm"
   },
  {
     "id": "pro8",
 
     "image": "https://product.hstatic.net/200000112489/product/z2108742660059_7a49e74c57569f4cdb56d74ca8cccc04_d673c61d68f046b5a3deef717649e406_master.jpg",
     "name": "Mô Hình Grand Oder Lancer",
-    "price": 850000
+    "price": 850000,
+     "series": "Siêu nhân" 
+    "height: "26 cm"
   },
      {
     "id": "be1",
@@ -126,7 +141,9 @@
     "image":
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
     "name": "Siêu nhân đỏ",
-    "price": 670000
+    "price": 670000,
+         "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "be2",
@@ -134,7 +151,9 @@
     "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
     "name": "Siêu nhân cuồng phong",
-    "price": 5200000
+    "price": 5200000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "be3",
@@ -142,7 +161,9 @@
     "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
     "name": "Siêu nhân vàng",
-    "price": 1500000
+    "price": 1500000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "be4",
@@ -150,14 +171,18 @@
     "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
     "name": "Siêu nhân xanh",
-    "price": 500000
+    "price": 500000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "be5",
 
     "image": "http://i.imgur.com/u2Ni9Wl.jpg",
     "name": "Siêu nhân đen",
-    "price": 850000
+    "price": 850000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   }
      ,
        {
@@ -165,21 +190,27 @@
 
     "image": "https://product.hstatic.net/200000112489/product/db435fbeb3cf4e9117de_cb0e6c6531a0457386311ffd93650098_master.jpg",
     "name": "Mô hình Alberdo",
-    "price": 1850000
+    "price": 1850000,
+           "series": "Siêu nhân" 
+    "height: "26 cm"
   },
  {
     "id": "be7",
 
     "image": "https://product.hstatic.net/200000112489/product/z1986154399555_e62a8bd534b71b1e5b73edd49f1947b7_cb29afa19465493b9f0302ef2fb97df9_master.jpg",
     "name": "Mô hình Pain",
-    "price": 550000
+    "price": 550000,
+     "series": "Siêu nhân" 
+    "height: "26 cm"
   },
  {
     "id": "be8",
 
     "image": "https://product.hstatic.net/200000112489/product/z2108742660059_7a49e74c57569f4cdb56d74ca8cccc04_d673c61d68f046b5a3deef717649e406_master.jpg",
     "name": "Mô Hình Grand Oder Lancer",
-    "price": 850000
+    "price": 850000,
+     "series": "Siêu nhân" 
+    "height: "26 cm"
   },
      {
     "id": "new1",
@@ -187,7 +218,9 @@
     "image":
       "https://i.pinimg.com/originals/d9/b8/3a/d9b83aa1a08be3e46ebb47254db8cf75.jpg",
     "name": "Siêu nhân đỏ",
-    "price": 670000
+    "price": 670000,
+         "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "new2",
@@ -195,7 +228,9 @@
     "image":
       "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg",
     "name": "Siêu nhân cuồng phong",
-    "price": 5200000
+    "price": 5200000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "new3",
@@ -203,7 +238,9 @@
     "image":
       "https://i.pinimg.com/564x/d6/c7/4c/d6c74c0f2f084f90b0ccf9eeb4da0d41.jpg",
     "name": "Siêu nhân vàng",
-    "price": 1500000
+    "price": 1500000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "new4",
@@ -211,35 +248,45 @@
     "image":
       "https://i.pinimg.com/564x/87/11/7e/87117e34960dd5b2c5e8587dc170b06e.jpg",
     "name": "Siêu nhân xanh",
-    "price": 500000
+    "price": 500000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
   {
     "id": "new5",
 
     "image": "http://i.imgur.com/u2Ni9Wl.jpg",
     "name": "Siêu nhân đen",
-    "price": 850000
+    "price": 850000,
+      "series": "Siêu nhân" 
+    "height: "26 cm"
   },
        {
     "id": "new6",
 
     "image": "https://product.hstatic.net/200000112489/product/db435fbeb3cf4e9117de_cb0e6c6531a0457386311ffd93650098_master.jpg",
     "name": "Mô hình Alberdo",
-    "price": 1850000
+    "price": 1850000,
+           "series": "Siêu nhân" 
+    "height: "26 cm"
   },
  {
     "id": "new7",
 
     "image": "https://product.hstatic.net/200000112489/product/z1986154399555_e62a8bd534b71b1e5b73edd49f1947b7_cb29afa19465493b9f0302ef2fb97df9_master.jpg",
     "name": "Mô hình Pain",
-    "price": 550000
+    "price": 550000,
+     "series": "Siêu nhân" 
+    "height: "26 cm"
   },
  {
     "id": "new8",
 
     "image": "https://product.hstatic.net/200000112489/product/z2108742660059_7a49e74c57569f4cdb56d74ca8cccc04_d673c61d68f046b5a3deef717649e406_master.jpg",
     "name": "Mô Hình Grand Oder Lancer",
-    "price": 850000
+    "price": 850000,
+     "series": "Siêu nhân" 
+    "height: "26 cm"
   }
   ], 
   "productsNew": [
