@@ -68,7 +68,7 @@
     "price": 670000,
     "series": "Siêu nhân",
       "height": "26 cm",
-    "alpha"="S"
+    "alpha":"S"
   },
   {
     "id": "pro2",
@@ -79,7 +79,7 @@
     "price": 5200000,
       "series": "Siêu nhân" ,
        "height": "26 cm",
-       "alpha"="S"
+       "alpha":"S"
   },
   {
     "id": "pro3",
@@ -90,7 +90,7 @@
     "price": 1500000,
       "series": "Siêu nhân" ,
     "height": "26 cm",
-       "alpha"="S"
+          "alpha":"S"
   },
   {
     "id": "pro4",
@@ -101,7 +101,7 @@
     "price": 500000,
       "series": "Siêu nhân" ,
      "height": "26 cm",
-       "alpha"="S"
+          "alpha":"S"
   },
   {
     "id": "pro5",
@@ -111,7 +111,7 @@
     "price": 850000,
       "series": "Siêu nhân" ,
       "height": "26 cm",
-       "alpha"="S"
+      "alpha":"S"
   },
      {
     "id": "pro6",
@@ -121,7 +121,7 @@
     "price": 1850000,
          "series": "Siêu nhân", 
       "height": "26 cm",
-          "alpha"="A"
+         "alpha":"S"
   },
  {
     "id": "pro7",
@@ -131,7 +131,7 @@
     "price": 550000,
      "series": "Siêu nhân", 
       "height": "26 cm",
-      "alpha"="M"
+      "alpha":"M"
   },
  {
     "id": "pro8",
@@ -141,7 +141,7 @@
     "price": 850000,
      "series": "Siêu nhân", 
      "height": "26 cm",
-      "alpha"="M"
+      "alpha":"M"
   },
      {
     "id": "be1",
@@ -152,7 +152,7 @@
     "price": 670000,
          "series": "Siêu nhân", 
        "height": "26 cm",
-          "alpha"="S"
+          "alpha":"S"
      },
   {
     "id": "be2",
@@ -163,7 +163,7 @@
     "price": 5200000,
       "series": "Siêu nhân",
       "height": "26 cm",
-       "alpha"="S"
+       "alpha":"S"
   },
   {
     "id": "be3",
@@ -174,7 +174,7 @@
     "price": 1500000,
       "series": "Siêu nhân", 
     "height": "26 cm",
-       "alpha"="S"
+       "alpha":"S"
   },
   {
     "id": "be4",
@@ -185,7 +185,7 @@
     "price": 500000,
       "series": "Siêu nhân", 
       "height": "26 cm",
-       "alpha"="S"
+       "alpha":"S"
   },
   {
     "id": "be5",
@@ -195,7 +195,7 @@
     "price": 850000,
       "series": "Siêu nhân", 
       "height": "26 cm",
-       "alpha"="S"
+       "alpha":"S"
   }
      ,
        {
@@ -206,7 +206,7 @@
     "price": 1850000,
            "series": "Siêu nhân", 
        "height": "26 cm"
-            "alpha"="A"
+            "alpha":"A"
   },
  {
     "id": "be7",
@@ -216,7 +216,7 @@
     "price": 550000,
      "series": "Siêu nhân", 
        "height": "26 cm",
-      "alpha"="M"
+      "alpha":"M"
   },
  {
     "id": "be8",
@@ -226,7 +226,7 @@
     "price": 850000,
      "series": "Siêu nhân", 
       "height": "26 cm",  
-      "alpha"="M"
+      "alpha":"M"
   },
      {
     "id": "new1",
