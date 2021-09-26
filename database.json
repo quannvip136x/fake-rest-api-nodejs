@@ -67,7 +67,7 @@
     "name": "Siêu nhân đỏ",
     "price": 670000,
     "series": "Siêu nhân",
-    "height: "26 cm" 
+      "height": "26 cm"
   },
   {
     "id": "pro2",
@@ -77,7 +77,7 @@
     "name": "Siêu nhân cuồng phong",
     "price": 5200000,
       "series": "Siêu nhân" ,
-    "height": "26cm"
+       "height": "26 cm"
   },
   {
     "id": "pro3",
