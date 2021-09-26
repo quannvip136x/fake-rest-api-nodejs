@@ -67,7 +67,8 @@
     "name": "Siêu nhân đỏ",
     "price": 670000,
     "series": "Siêu nhân",
-      "height": "26 cm"
+      "height": "26 cm",
+    "alpha"="S"
   },
   {
     "id": "pro2",
@@ -77,7 +78,8 @@
     "name": "Siêu nhân cuồng phong",
     "price": 5200000,
       "series": "Siêu nhân" ,
-       "height": "26 cm"
+       "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "pro3",
@@ -87,7 +89,8 @@
     "name": "Siêu nhân vàng",
     "price": 1500000,
       "series": "Siêu nhân" ,
-    "height": "26 cm"
+    "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "pro4",
@@ -97,7 +100,8 @@
     "name": "Siêu nhân xanh",
     "price": 500000,
       "series": "Siêu nhân" ,
-     "height": "26 cm"
+     "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "pro5",
@@ -106,7 +110,8 @@
     "name": "Siêu nhân đen",
     "price": 850000,
       "series": "Siêu nhân" ,
-      "height": "26 cm"
+      "height": "26 cm",
+       "alpha"="S"
   },
      {
     "id": "pro6",
@@ -115,7 +120,8 @@
     "name": "Mô hình Alberdo",
     "price": 1850000,
          "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+          "alpha"="A"
   },
  {
     "id": "pro7",
@@ -124,7 +130,8 @@
     "name": "Mô hình Pain",
     "price": 550000,
      "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+      "alpha"="M"
   },
  {
     "id": "pro8",
@@ -133,7 +140,8 @@
     "name": "Mô Hình Grand Oder Lancer",
     "price": 850000,
      "series": "Siêu nhân", 
-     "height": "26 cm"
+     "height": "26 cm",
+      "alpha"="M"
   },
      {
     "id": "be1",
@@ -143,7 +151,8 @@
     "name": "Siêu nhân đỏ",
     "price": 670000,
          "series": "Siêu nhân", 
-       "height": "26 cm"
+       "height": "26 cm",
+          "alpha"="S"
      },
   {
     "id": "be2",
@@ -153,7 +162,8 @@
     "name": "Siêu nhân cuồng phong",
     "price": 5200000,
       "series": "Siêu nhân",
-      "height": "26 cm"
+      "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "be3",
@@ -163,7 +173,8 @@
     "name": "Siêu nhân vàng",
     "price": 1500000,
       "series": "Siêu nhân", 
-    "height": "26 cm"
+    "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "be4",
@@ -173,7 +184,8 @@
     "name": "Siêu nhân xanh",
     "price": 500000,
       "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "be5",
@@ -182,7 +194,8 @@
     "name": "Siêu nhân đen",
     "price": 850000,
       "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+       "alpha"="S"
   }
      ,
        {
@@ -193,6 +206,7 @@
     "price": 1850000,
            "series": "Siêu nhân", 
        "height": "26 cm"
+            "alpha"="A"
   },
  {
     "id": "be7",
@@ -201,7 +215,8 @@
     "name": "Mô hình Pain",
     "price": 550000,
      "series": "Siêu nhân", 
-       "height": "26 cm"
+       "height": "26 cm",
+      "alpha"="M"
   },
  {
     "id": "be8",
@@ -210,7 +225,8 @@
     "name": "Mô Hình Grand Oder Lancer",
     "price": 850000,
      "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",  
+      "alpha"="M"
   },
      {
     "id": "new1",
@@ -220,7 +236,8 @@
     "name": "Siêu nhân đỏ",
     "price": 670000,
          "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+          "alpha"="S"
      },
   {
     "id": "new2",
@@ -230,7 +247,8 @@
     "name": "Siêu nhân cuồng phong",
     "price": 5200000,
       "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "new3",
@@ -240,7 +258,8 @@
     "name": "Siêu nhân vàng",
     "price": 1500000,
       "series": "Siêu nhân", 
-     "height": "26 cm"
+     "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "new4",
@@ -250,7 +269,8 @@
     "name": "Siêu nhân xanh",
     "price": 500000,
       "series": "Siêu nhân", 
-    "height": "26 cm"
+    "height": "26 cm",
+       "alpha"="S"
   },
   {
     "id": "new5",
@@ -259,7 +279,8 @@
     "name": "Siêu nhân đen",
     "price": 850000,
       "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+       "alpha"="S"
   },
        {
     "id": "new6",
@@ -268,7 +289,8 @@
     "name": "Mô hình Alberdo",
     "price": 1850000,
            "series": "Siêu nhân", 
-     "height": "26 cm"
+     "height": "26 cm",
+            "alpha"="A"
   },
  {
     "id": "new7",
@@ -277,7 +299,8 @@
     "name": "Mô hình Pain",
     "price": 550000,
      "series": "Siêu nhân", 
-      "height": "26 cm"
+      "height": "26 cm",
+      "alpha"="M"
   },
  {
     "id": "new8",
@@ -287,6 +310,7 @@
     "price": 850000,
      "series": "Siêu nhân", 
       "height": "26 cm"
+      "alpha"="M"
   }
   ], 
   "productsNew": [
