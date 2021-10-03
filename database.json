@@ -11,7 +11,7 @@
     "series": "Siêu nhân",
       "height": "26 cm",
     "alpha":"S",
-    quantity:1,
+    "quantity":1,
   },
   {
     "id": "pro2",
@@ -23,7 +23,7 @@
       "series": "Siêu nhân" ,
        "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+     "quantity":1,
   },
   {
     "id": "pro3",
@@ -36,7 +36,7 @@
     "height": "26 cm",
           "alpha":"S"
     ,
-     quantity:1,
+   "quantity":1,
   },
   {
     "id": "pro4",
@@ -48,7 +48,7 @@
       "series": "Siêu nhân" ,
      "height": "26 cm",
           "alpha":"S",
-     quantity:1,
+    "quantity":1,
   },
   {
     "id": "pro5",
@@ -59,7 +59,7 @@
       "series": "Siêu nhân" ,
       "height": "26 cm",
       "alpha":"S",
-     quantity:1,
+     "quantity":1,
   },
      {
     "id": "pro6",
@@ -70,7 +70,7 @@
          "series": "Siêu nhân", 
       "height": "26 cm",
          "alpha":"S",
-     quantity:1,
+    "quantity":1,
   },
  {
     "id": "pro7",
@@ -81,7 +81,7 @@
      "series": "Siêu nhân", 
       "height": "26 cm",
       "alpha":"M",
-     quantity:1,
+   "quantity":1,
   },
  {
     "id": "pro8",
@@ -92,7 +92,7 @@
      "series": "Siêu nhân", 
      "height": "26 cm",
       "alpha":"M",
-     quantity:1,
+    "quantity":1,
   },
      {
     "id": "be1",
@@ -104,7 +104,7 @@
          "series": "Siêu nhân", 
        "height": "26 cm",
           "alpha":"S",
-     quantity:1,
+   "quantity":1,
      },
   {
     "id": "be2",
@@ -116,7 +116,7 @@
       "series": "Siêu nhân",
       "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+    "quantity":1,
   },
   {
     "id": "be3",
@@ -128,7 +128,7 @@
       "series": "Siêu nhân", 
     "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+     "quantity":1,
   },
   {
     "id": "be4",
@@ -140,7 +140,7 @@
       "series": "Siêu nhân", 
       "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+    "quantity":1,
   },
   {
     "id": "be5",
@@ -151,7 +151,7 @@
       "series": "Siêu nhân", 
       "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+    "quantity":1,
   }
      ,
        {
@@ -163,7 +163,7 @@
            "series": "Siêu nhân", 
        "height": "26 cm",
             "alpha":"A",
-     quantity:1,
+   "quantity":1,
   },
  {
     "id": "be7",
@@ -174,7 +174,7 @@
      "series": "Siêu nhân", 
        "height": "26 cm",
       "alpha":"M",
-     quantity:1,
+   "quantity":1,
   },
  {
     "id": "be8",
@@ -185,7 +185,7 @@
      "series": "Siêu nhân", 
       "height": "26 cm",  
       "alpha":"M",
-     quantity:1,
+   "quantity":1,
   },
      {
     "id": "new1",
@@ -197,7 +197,7 @@
          "series": "Siêu nhân", 
       "height": "26 cm",
           "alpha":"S",
-     quantity:1,
+   "quantity":1,
      },
   {
     "id": "new2",
@@ -209,7 +209,7 @@
       "series": "Siêu nhân", 
       "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+  "quantity":1,
   },
   {
     "id": "new3",
@@ -221,7 +221,7 @@
       "series": "Siêu nhân", 
      "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+      "quantity":1,
   },
   {
     "id": "new4",
@@ -233,7 +233,7 @@
       "series": "Siêu nhân", 
     "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+    "quantity":1,
   },
   {
     "id": "new5",
@@ -244,7 +244,7 @@
       "series": "Siêu nhân", 
       "height": "26 cm",
        "alpha":"S",
-     quantity:1,
+     "quantity":1,
   },
        {
     "id": "new6",
@@ -255,7 +255,7 @@
            "series": "Siêu nhân", 
      "height": "26 cm",
             "alpha":"A",
-     quantity:1,
+    "quantity":1,
   },
  {
     "id": "new7",
@@ -266,7 +266,7 @@
      "series": "Siêu nhân", 
       "height": "26 cm",
       "alpha":"M",
-     quantity:1,
+     "quantity":1,
   },
  {
     "id": "new8",
@@ -277,7 +277,7 @@
      "series": "Siêu nhân", 
       "height": "26 cm",
       "alpha":"M",
-     quantity:1,
+   "quantity":1,
   }
   ], 
   "productsNew": [
