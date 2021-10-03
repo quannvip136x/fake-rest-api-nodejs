@@ -68,7 +68,7 @@
     "price": 670000,
     "series": "Siêu nhân",
       "height": "26 cm",
-    "alpha":"S"
+    "alpha":1
   },
   {
     "id": "pro2",
@@ -79,7 +79,7 @@
     "price": 5200000,
       "series": "Siêu nhân" ,
        "height": "26 cm",
-       "alpha":"S"
+       "alpha":1
   },
   {
     "id": "pro3",
