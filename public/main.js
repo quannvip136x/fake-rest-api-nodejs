@@ -23,7 +23,7 @@ function editor() {
 let isEmailAddress = email => {
     return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
 }
-let courseApi = 'https://shadowboiz.herokuapp.com/users';
+let courseApi = 'https://api-storess.herokuapp.com/users';
 function loadDocJQuery() {
     $.ajax(courseApi, {
         method: "GET"
